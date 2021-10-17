@@ -66,26 +66,72 @@ function includeOf(string, character) {
 
 // 1
 function addToArray(array, string) {
-    
+     array.push(string);
+     console.log(array);
 }
 
+addToArray(["Hello", "i", "am"], "John")
+
+
+
+
 // 2
-function convertToString(params) {
-    
+function convertToString(arr) {
+  return arr.join(' ');
+   
 }
+
 
 // 3
 
-function updateValue(params) {
-    
-}
+// function updateValue(array, index, value) {
+//     if (condition) {
+
+//         let update = index.splice()
+//         return "there is no element to updated in this index"
+//     } else {
+        
+//     }
+// }
+
 
 // 4
 
+function onlyString(array) {
+    let arr = []
+    let res = array.filter( array == 'string');
+    return arr.push;
+}
 
 
 // 5
 
+// const users = [
+//     ["Jane", "123456" ],
+//     ["admin", "abc123" ],
+//   ];
+  
+// function login (username, password) {
+//     if (users[0] == username && password) {
+//         return "Login Successful";
+//     } else {
+//         return "Login Failed";
+//     }
+// }
+
+
 // 6
+function maximumNumber(numbers) {
+  return  Math.max(...numbers)  
+}
+
 
 // 7
+
+// function reversString (string) {
+//     string.split(reverse());
+//     string.reverse()
+//     console.log(string);
+// }
+
+// reversString('hi');
