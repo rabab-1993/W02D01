@@ -97,11 +97,11 @@ function convertToString(arr) {
 
 // 4
 
-function onlyString(array) {
-    let arr = []
-    let res = array.filter( array == 'string');
-    return arr.push;
-}
+// function onlyString(array) {
+//     let arr = []
+//     let res = array.filter( array == 'string');
+//     return arr.push;
+// }
 
 
 // 5
@@ -128,10 +128,12 @@ function maximumNumber(numbers) {
 
 // 7
 
-// function reversString (string) {
-//     string.split(reverse());
-//     string.reverse()
-//     console.log(string);
-// }
+function reversString (string) {
+    const arr = string.split();
+    const rev = arr.reverse(); 
+    console.log(rev);
+}
 
-// reversString('hi');
+reversString("Hello")
+
+
